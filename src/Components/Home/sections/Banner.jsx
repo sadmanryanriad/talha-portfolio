@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <>
       <div
-        className="hero max-w-7xl w-full mx-auto h-[60vh] md:h-[70vh]"
+        className="hero max-w-7xl w-full mx-auto h-[60vh] md:h-[80vh]"
         style={{
           backgroundImage: `url(${bannerImage2})`,
         }}

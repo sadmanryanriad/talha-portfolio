@@ -1,6 +1,7 @@
 import Banner from "../Home/sections/Banner";
 import AboutMe from "../Home/sections/aboutMe/AboutMe";
 import useScrollToTop from "../../Hooks/useScrollToTop";
+import { BsArrowUpCircle } from "react-icons/bs";
 
 const Home = () => {
     const { isScrollVisible, scrollToTop } = useScrollToTop(200);
@@ -12,10 +13,10 @@ const Home = () => {
       {/* Render the scroll-to-top button when showScrollButton is true */}
       {isScrollVisible && (
         <button
-          className="fixed bottom-10 right-10 p-3 bg-blue-500 text-white rounded-full cursor-pointer"
+          className="fixed bottom-10 right-10 border bg-black dark:text-black text-white dark:bg-white text-3xl md:text-4xl rounded-full cursor-pointer"
           onClick={scrollToTop}
         >
-          Scroll to Top
+          <BsArrowUpCircle></BsArrowUpCircle>
         </button>
       )}
     </div>
