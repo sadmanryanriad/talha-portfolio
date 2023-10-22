@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
 
 import ThemeButton from "../mini-components/ThemeButton";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
-
-
   const navItems = (
     <>
-      <li>
-        <a>Item 1</a>
-      </li>
+      <HashLink smooth to={"#about-me"}>
+        <li>
+          <a>About me</a>
+        </li>
+      </HashLink>
       <li>
         <a>Item 3</a>
       </li>
@@ -44,17 +45,17 @@ const Navbar = () => {
               {navItems}
             </ul>
           </div>
-          <Link to={'/'}><a className="btn btn-ghost normal-case text-2xl">Home</a></Link>
+          <Link to={"/"}>
+            <a className="btn btn-ghost normal-case text-2xl">Home</a>
+          </Link>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-xl">
-            {navItems}
-          </ul>
+        <div className="navbar-center hidden font-semibold lg:flex">
+          <ul className="menu menu-horizontal px-1 text-xl">{navItems}</ul>
         </div>
         <div className="navbar-end flex gap-6 md:gap-12 items-center">
-            <div className="text-xl sm:text-2xl">
-                <ThemeButton></ThemeButton>
-            </div>
+          <div className="text-xl sm:text-2xl">
+            <ThemeButton></ThemeButton>
+          </div>
         </div>
       </div>
     </>
