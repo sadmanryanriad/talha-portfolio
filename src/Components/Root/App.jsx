@@ -1,13 +1,11 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../shared/Navbar";
-import Banner from "../Home/Banner";
 
 const App = () => {
     return (
-        <div>
-            <Outlet></Outlet>
+        <div className="dark:bg-gray-500 dark:text-white">
             <Navbar></Navbar>
-            <Banner></Banner>
+            <Outlet></Outlet>
         </div>
     );
 };
