@@ -3,7 +3,7 @@ import AboutMe from "../Home/sections/aboutMe/AboutMe";
 
 const Home = () => {
     return (
-        <div className="space-y-10">
+        <div className="space-y-8">
             <Banner></Banner>
             <AboutMe></AboutMe>
         </div>
