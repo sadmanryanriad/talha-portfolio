@@ -1,4 +1,4 @@
-import bannerImage2 from "../../../src/assets/financial-2860753_1280.jpg";
+import bannerImage2 from "../../../assets/financial-2860753_1280.jpg";
 
 const Banner = () => {
   return (
@@ -16,7 +16,7 @@ const Banner = () => {
               Elevate your brand with captivating visuals that leave a lasting
               impression
             </h1>
-            <p className="mb-5 font-semibold w-full md:w-2/3 mx-auto">
+            <p className="mb-5 font-semibold w-full md:w-2/3 mx-auto md:text-xl">
               I am your solution to businesses and companies, creating marketing
               collateral that turns heads and drives results. From striking
               logos to eye-catching brochures, we craft designs that resonate
