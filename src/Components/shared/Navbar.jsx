@@ -44,10 +44,10 @@ const Navbar = () => {
               {navItems}
             </ul>
           </div>
-          <Link to={'/'}><a className="btn btn-ghost normal-case text-xl">Home</a></Link>
+          <Link to={'/'}><a className="btn btn-ghost normal-case text-2xl">Home</a></Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 text-xl">
             {navItems}
           </ul>
         </div>
@@ -55,9 +55,6 @@ const Navbar = () => {
             <div className="text-xl sm:text-2xl">
                 <ThemeButton></ThemeButton>
             </div>
-          <div>
-            <Link><a className="btn btn-sm sm:btn-md bg-gray-700 text-white border-none">Get Started</a></Link>
-          </div>
         </div>
       </div>
     </>
