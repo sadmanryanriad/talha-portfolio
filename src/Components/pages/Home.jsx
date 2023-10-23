@@ -5,6 +5,7 @@ import { BsArrowUpCircle } from "react-icons/bs";
 import SkillsAndTools from "../Home/sections/SkillsAndTools";
 import Services from "../Home/sections/Services/Services";
 import Footer from "../shared/Footer";
+import ContactMe from "../Home/sections/Contact/ContactMe";
 
 const Home = () => {
   const { isScrollVisible, scrollToTop } = useScrollToTop(200);
@@ -15,6 +16,7 @@ const Home = () => {
       <AboutMe></AboutMe>
       <SkillsAndTools></SkillsAndTools>
       <Services></Services>
+      <ContactMe></ContactMe>
       <Footer></Footer>
 
       {/* Render the scroll-to-top button when showScrollButton is true */}
