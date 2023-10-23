@@ -51,7 +51,7 @@ const ContactMe = () => {
               ></textarea>
             </div>
             <div>
-              <button className="btn btn-btn btn-sm sm:btn-md bg-gray-700 text-white border-none">
+              <button className="btn btn-btn btn-sm sm:btn-md dark:bg-gray-400 bg-gray-700 text-white dark:text-black border-none">
                 Submit
               </button>
             </div>
