@@ -2,7 +2,7 @@ import talhaPic from "../../../../assets/IMG_2598__1_-removebg-preview.png";
 
 const AboutMe = () => {
     return (
-        <div id="about-me" className="bg-gray-100  dark:bg-gray-700  sm:p-4 ">
+        <div id="about-me" className="bg-gray-100  dark:bg-gray-700  sm:p-4  pt-8 md:pt-12">
             <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center text-center p-5">
                 <div className="md:w-3/5 sm:p-5 text-gray-700">
                     <h2 className="text-2xl lg:text-3xl font-bold mb-5 mt-5 dark:text-slate-300">About me</h2>

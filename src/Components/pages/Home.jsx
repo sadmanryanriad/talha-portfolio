@@ -9,7 +9,7 @@ const Home = () => {
   const { isScrollVisible, scrollToTop } = useScrollToTop(200);
 
   return (
-    <div className="space-y-8">
+    <>
       <Banner></Banner>
       <AboutMe></AboutMe>
       <SkillsAndTools></SkillsAndTools>
@@ -25,7 +25,7 @@ const Home = () => {
           <BsArrowUpCircle></BsArrowUpCircle>
         </button>
       )}
-    </div>
+    </>
   );
 };
 

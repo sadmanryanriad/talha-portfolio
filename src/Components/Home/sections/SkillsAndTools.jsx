@@ -21,7 +21,7 @@ const SkillsAndTools = () => {
   ];
 
   return (
-    <section id="skills-and-tools" className="bg-gray-100 dark:bg-gray-700 p-8">
+    <section id="skills-and-tools" className="bg-gray-100 dark:bg-gray-700 px-8  pt-16 md:pt-20">
       <div className="max-w-7xl mx-auto">
       <h2 className="text-3xl md:text-5xl font-bold mb-6 md:mb-12 text-center dark:text-slate-300">
           Skills and Tools
