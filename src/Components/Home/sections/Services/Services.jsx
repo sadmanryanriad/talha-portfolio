@@ -5,32 +5,32 @@ const services = [
     {
       id: 1,
       title: "Web Analytics",
-      image: "src/assets/gig1.webp"
+      image: "gig1.webp"
     },
     {
       id: 2,
       title: "Google Tag Manager",
-      image: "src/assets/gig2.webp"
+      image: "gig2.webp"
     },
     {
       id: 3,
       title: "Data Visualization",
-      image: "src/assets/gig3.webp"
+      image: "gig3.webp"
     },
     {
       id: 4,
       title: "Conversion Optimization",
-      image: "src/assets/gig4.webp"
+      image: "gig4.webp"
     },
     {
       id: 5,
       title: "E-commerce Analytics",
-      image: "src/assets/gig5.webp"
+      image: "gig5.webp"
     },
     {
       id: 6,
       title: "SEO Performance",
-      image: "src/assets/gig6.jpeg"
+      image: "gig6.jpeg"
     }
   ];
   
